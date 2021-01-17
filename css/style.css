@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(OpenSansCondensed-Light.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "Open Sans Bold";
+    src: url(OpenSansCondensed-Bold.ttf) format("truetype");
+}
+
+body{
+	margin: 5% auto;
+}
+
+
+div.headportfolio { 
+    font-family: "Open Sans", OpenSansCondensed, Light;
+	font-size: 40px;
+	color: white;
+	background-color: black;
+	margin-top: -8%;
+}
+
+p.margin { 
+	margin-top: -1%;
+}
+
+div.headkodlon {
+	font-family: "Open Sans Bold", OpenSansCondensed, Bold;
+	font-size: 100px;
+	color: white;
+	background-color: black;
+	margin-bottom: -5%;
+	margin-top: -8%;
+}
+
