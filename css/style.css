@@ -13,13 +13,19 @@ body{
 	margin: 5% auto;
 }
 
+hr{
+	border: 1px solid white;
+}
+
 
 div.headportfolio { 
     font-family: "Open Sans", OpenSansCondensed, Light;
-	font-size: 40px;
+	font-size: 200%;
 	color: white;
 	background-color: black;
-	margin-top: -8%;
+	
+	/* 	margin-top: -8%; */
+
 }
 
 p.margin { 
@@ -28,10 +34,13 @@ p.margin {
 
 div.headkodlon {
 	font-family: "Open Sans Bold", OpenSansCondensed, Bold;
-	font-size: 100px;
+	font-size: 500%;
 	color: white;
 	background-color: black;
-	margin-bottom: -5%;
-	margin-top: -8%;
+	margin-bottom: -7%;
+	margin-top: -7%;
+	/* 		margin-bottom: -5%;
+	margin-top: -8%; */
+
 }
 
