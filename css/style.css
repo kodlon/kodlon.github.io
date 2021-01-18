@@ -11,6 +11,7 @@
 
 
 body{
+	overflow-x: hidden;
 	margin: auto;
 }
 
@@ -19,18 +20,12 @@ h1{
 	font-family: Open Sans Bold, bold;
 }
 
-/*
-div.logo{
-	margin-top: -3%;
-	background: black;
-}
-*/
-
 
 table{
 	margin-left: -2%;
 	margin-right: -2%;
 	margin-top: -2%;
+	width: 103%;
 }
 
 
@@ -45,23 +40,11 @@ div.footer{
 
 @media only screen and (max-width:800px) {
   /* For tablets: */
- /* div.logo {
-	padding-bottom: -100%;
-	margin-top: -5%;
-	width: 100%;
-	height: 35%;
-  }*/
+
 }
 
 
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
- /* div.logo {
-	padding-bottom: -100%;
-	margin-top: -5%;
-	width: 100%;
-	height: 20%;
-  }*/
-  
 
 }
