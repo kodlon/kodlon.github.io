@@ -21,13 +21,33 @@ div.logo{
 }
 
 
+div.logoimg {
+    width: 50%;
+	height: 40%;
+  }
+
+
 div.footer{
 	margin-bottom: -3%;
 	background: black;
 }
 
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  div.logo {
+	margin-top: -5%;
+    width: 100%;
+	height: 100%;
+  }
+}
+
+
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   div.logo {
-    width: 10%;
+	margin-top: -5%;
+	width: 100%;
+	height: 100%;
   }
+}
