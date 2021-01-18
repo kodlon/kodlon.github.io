@@ -28,6 +28,10 @@ table{
 	width: 103%;
 }
 
+img.logo{
+	width:50%;
+}
+
 
 div.footer{
 	padding-top: 1%;
@@ -38,13 +42,32 @@ div.footer{
 }
 
 
+img.footerimg{
+	width:5%;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+
 @media only screen and (max-width:800px) {
-  /* For tablets: */
+ img.logo{
+	width:75%;
+}
+
+img.footerimg{
+	width:10%;
+}
 
 }
 
 
 @media only screen and (max-width:500px) {
-  /* For mobile phones: */
+  img.logo{
+	width:100%;
+}
+
+img.footerimg{
+	width:15%;
+}
 
 }
