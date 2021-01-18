@@ -9,12 +9,25 @@
     src: url(OpenSansCondensed-Bold.ttf) format("truetype");
 }
 
+
 body{
 	margin: auto;
 }
 
+
 div.logo{
-	margin-top: -2%;
+	margin-top: -3%;
 	background: black;
 }
 
+
+div.footer{
+	margin-bottom: -3%;
+	background: black;
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  div.logo {
+    width: 10%;
+  }
