@@ -75,6 +75,23 @@ img.content{
 
 }
 
+h1.title{
+	color:black;
+	font-family: Open Sans Bold, bold;
+	font-size: 48;
+}
+
+h2.title{
+	color:black;
+	font-family: Open Sans Bold, bold;
+	font-size: 36;
+}
+
+p.description{
+	font-family: Open Sans, light;
+	font-size: 24;
+}
+
 
 @media only screen and (max-width:500px) {
   img.logo{
@@ -168,3 +185,4 @@ a:active.content  {
   color: white;
   text-decoration: none;
 }
+
