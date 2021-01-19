@@ -72,6 +72,7 @@ img.content{
 	margin-bottom: 3%;
 }
 
+
 }
 
 
@@ -90,6 +91,7 @@ img.content{
 	margin-bottom: 3%;
 }
 
+
 }
 
 
@@ -102,13 +104,19 @@ h1.back{
 	font-family: Open Sans Bold, bold;
 }
 
+
 video{
-	width: 50%;
+	width:50%;
 }
 
+video.domino{
+	width:80%;
+}
+
+
 div.domino{
-	margin-top: -1.15%;
 	background:#5ba1a5;
+	
 }
 
 div.banana{
@@ -119,3 +127,44 @@ div.metal{
 	background:#6a6559;
 }
 
+
+a:link.contact {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited.contact {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover.contact {
+  color: black;
+  text-decoration: none;
+}
+
+a:active.contact {
+  color: black;
+  text-decoration: none;
+}
+
+/*--------------------------------*/
+a:link.content {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited.content  {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover.content  {
+  color: white;
+  text-decoration: none;
+}
+
+a:active.content  {
+  color: white;
+  text-decoration: none;
+}
