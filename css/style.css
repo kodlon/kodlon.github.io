@@ -116,6 +116,10 @@ img.art{
 	width:100%;
 }
 
+img.gameArt{
+	width:20%;
+}
+
 h1.back{
 	color:black;
 	font-family: Open Sans Bold, bold;
